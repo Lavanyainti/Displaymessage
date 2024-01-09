@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            background-image: url("https://th.bing.com/th/id/R.605e083ae5d9bcea8090dfbca25b4053?rik=NDLuf%2bhu07Uc9w&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-5%2fLight-Background-HD-Wallpapers-16374.jpg&ehk=H9FObhincAoI2eMohn8bj9jwQnY%2b%2ff0OLWQ8JuLjyc0%3d&risl=&pid=ImgRaw&r=0");
+            background-repeat: no-repeat;
+            background-size: 1700px 800px;
+        }
+        .main{
+            align-items: center;
+            text-align: center;
+            margin-top: 70px;
+            border: 3px solid rgb(5, 83, 113);
+            border-radius: 60px;
+            margin-left: 500px;
+            margin-right: 500px;
+            padding: 20px;
+            padding-top: 20px;
+            padding-bottom: 70px;
+        }
+        .head{
+            align-items: center;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(50, 2, 50);
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            margin-left: 150px;
+        }
+    </Style>
+</head>
+<body>
+    <div class="head">
+    <h1><b>TEXT MESSANGER</b></h1>
+    </div>
+    <div class="main">
+    
+    <h2 style="font-size: 50px; color: rgb(56, 1, 1);">Type A Message Here</h2>
+    <div class="flex">
+    <input type="text" id="getmsg" style="width: 320px; color: rgb(60, 2, 60); margin-left: -80px; border-radius: 20px; margin-top: -5px; padding: 10px; font-size: 20px;">
+    <button type="submit" id="getbtn" onclick="displaymsg()" style=" border-radius: 20px; margin-top: 20px; margin-left: 3px; font-size: 20px; padding: 8px; width: 170px; background-color: rgb(30, 3, 55); color: white;">Submit</button>
+    </div>
+    <p id="msg" style="font-size: 30px; color: rgb(3, 74, 102);">Your Message will Display Here.!</p>
+    </div>
+</body>
+<script src="message.js"></script>
+</html>
